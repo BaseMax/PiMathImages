@@ -32,6 +32,12 @@ Professor **Seyyed Ali Reza Ashrafi** was the one who encouraged me to generate 
 
 https://en.wikipedia.org/wiki/Ali_Reza_Ashrafi
 
+Works that have already been created and made me interested in this field:
+
+|             |  |
+| -------------- | -------------- |
+| ![](target-1.jpg)  |  ![](target-2.jpg) |
+
 ---------
 
 # Max Base
