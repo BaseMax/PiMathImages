@@ -1347,3 +1347,10 @@ def textName():
     # font = ImageFont.truetype(fontFile, 25, encoding='unic')
     # text = "Drawed mathematical image by Seyyed Ali Mohammadieyeh"
     # draw.text((85, 720), text, (256, 256, 0), font=font)
+
+def textSite():
+    global draw
+    font = ImageFont.truetype(fontFile, 20, encoding='unic')
+    text = "MaxBase.org"
+    draw.text((685, 767), text, (256, 256, 256), font=font)
+
