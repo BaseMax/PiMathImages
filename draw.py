@@ -1354,3 +1354,10 @@ def textSite():
     text = "MaxBase.org"
     draw.text((685, 767), text, (256, 256, 256), font=font)
 
+def reset(bgcolor):
+    global draw
+    global im
+    # bgcolor = (0, 0, 0)
+    # bgcolor = (256, 256, 256)
+    im = Image.new('RGB', (800, 800), bgcolor)
+    draw = ImageDraw.Draw(im)
