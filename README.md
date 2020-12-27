@@ -6,6 +6,8 @@ This Repository generate stunning images show the beauty hidden in pi using Pyth
 
 Professor **Seyyed Ali Reza Ashrafi** was the one who encouraged me to generate more of these works.
 
+https://en.wikipedia.org/wiki/Ali_Reza_Ashrafi
+
 ---------
 
 # Max Base
