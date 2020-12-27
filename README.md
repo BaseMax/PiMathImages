@@ -4,7 +4,7 @@ This Repository generate stunning images show the beauty hidden in pi using Pyth
 
 ## Mathematics and Art
 
-### Screenshots of Creative arts
+### Figure: Screenshots of Creative arts
 
 | Black             |  White |
 | -------------- | -------------- |
@@ -16,6 +16,15 @@ This Repository generate stunning images show the beauty hidden in pi using Pyth
 | ![](out-6-black.png)  |  ![](out-6-white.png) |
 | ![](out-7-black.png)  |  ![](out-7-white.png) |
 | ![](out-8-black.png)  |  ![](out-8-white.png) |
+
+### Incomplete Figure
+
+|             |  |
+| -------------- | -------------- |
+| ![](fig1.jpg)  |  ![](fig2.jpg) |
+| ![](fig3.jpg)  |  ![](fig4.jpg) |
+| ![](fig5.jpg)  |  ![](fig6.jpg) |
+| ![](fig7.jpg)  |  ![](test.png) |
 
 ### Credits
 
