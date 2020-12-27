@@ -1362,7 +1362,7 @@ def reset(bgcolor):
     im = Image.new('RGB', (800, 800), bgcolor)
     draw = ImageDraw.Draw(im)
 
-    def drawing(id, bgcolor, lm=None, appendDrawing=None):
+def drawing(id, bgcolor, lm=None, appendDrawing=None):
     global draw
     global im
     global pi
