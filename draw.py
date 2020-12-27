@@ -1404,5 +1404,8 @@ for filename in glob.glob("out-*"):
     os.remove(filename)
 #subprocess.run(["rm", dir_path+"\out-*"])
 
+drawing("1-black", (0, 0, 0), lambda i, x1, x2: i/3)
+drawing("1-white", (256, 256, 256), lambda i, x1, x2: i/3)
+
 # print(pi)
 # print(len(pi))
