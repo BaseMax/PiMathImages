@@ -1427,5 +1427,22 @@ drawing("7-white", (256, 256, 256), lambda i, x1, x2: i/((x1%4)+1))
 
 # drawing("7-black", (0, 0, 0), lambda i, x1, x2: i/2 if i < 100 else i/3)
 
+def aliText1():
+    global im
+    global draw
+    font = ImageFont.truetype(fontFile, 270, encoding='unic')
+    text = "ﯽﻠﻋ"
+    draw.text((199, 135), text, (0, 0, 0), font=font)
+
+drawing("8-black", (0, 0, 0), lambda i, x1, x2: i+((10*x1)+1), aliText1)
+
+def aliText2():
+    global im
+    global draw
+    font = ImageFont.truetype(fontFile, 270, encoding='unic')
+    text = "ﯽﻠﻋ"
+    draw.text((199, 135), text, (256, 256, 256), font=font)
+drawing("8-white", (256, 256, 256), lambda i, x1, x2: i+((10*x1)+1), aliText2)
+
 # print(pi)
 # print(len(pi))
