@@ -1403,3 +1403,6 @@ def drawing(id, bgcolor, lm=None, appendDrawing=None):
 for filename in glob.glob("out-*"):
     os.remove(filename)
 #subprocess.run(["rm", dir_path+"\out-*"])
+
+# print(pi)
+# print(len(pi))
