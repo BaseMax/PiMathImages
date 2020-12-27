@@ -1361,3 +1361,41 @@ def reset(bgcolor):
     # bgcolor = (256, 256, 256)
     im = Image.new('RGB', (800, 800), bgcolor)
     draw = ImageDraw.Draw(im)
+
+    def drawing(id, bgcolor, lm=None, appendDrawing=None):
+    global draw
+    global im
+    global pi
+    id = str(id)
+    reset(bgcolor)
+    x1 = 0
+    x2 = 16
+    piIndex = 0
+    for i in range(18, 300, 18):
+        # 18, 36, 54, 72, 90, 108, 126, 144, 162, 180, 198, 216, 234, 252, 270, 288, 
+        # print(i)
+        cis=i
+        if lm == None:
+            num_pts = i/1
+        else:
+            num_pts = lm(i, x1, x2)
+        ps = np.arange(num_pts)
+        pts = (np.exp(2j*np.pi/num_pts)**ps)
+        for p in pts:
+            # c = random.randint(0, len(colors)-1)
+            # print(piIndex)
+            c = int(pi[piIndex])
+            piIndex+=1
+
+            x1 = 380+p.real*cis
+            y1 = 380+p.imag*cis
+            draw.ellipse((x1, y1, x1 + 13, y1 + 13), fill = colors[c], outline = colors[c])
+        x1 += 1
+        x2 -= 1
+    footerBox()
+    textName()
+    textSite()
+    if appendDrawing != None:
+        appendDrawing()
+    # im.save("out-"+id+".jpg")
+    im.save("out-"+id+".png")
