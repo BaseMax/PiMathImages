@@ -1329,3 +1329,9 @@ pi = pi.replace('\n', '')
 #     x1 = i*15
 #     y1 = 250 + i*7
 #     draw.ellipse((x1, y1, x1 + 13, y1 + 13), fill = colors[c], outline = colors[c])
+
+def footerBox():
+    global draw
+    # draw.rectangle((0, 750, 800, 800), fill='#434343')
+    draw.rectangle((0, 765, 800, 800), fill='#434343')
+
