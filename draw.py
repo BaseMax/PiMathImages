@@ -1335,3 +1335,15 @@ def footerBox():
     # draw.rectangle((0, 750, 800, 800), fill='#434343')
     draw.rectangle((0, 765, 800, 800), fill='#434343')
 
+def textName():
+    global draw
+    # utf8 tools: ttp://awebfont.ir/convert/
+    font = ImageFont.truetype(fontFile, 20, encoding='unic')
+    text = "خلق تصویر ریاضی - سیدعلی محمدیه"
+    text = "ﻪﯾﺪﻤﺤﻣ ﯽﻠﻋﺪﯿﺳ - ﯽﺿﺎﯾﺭ ﺮﯾﻮﺼﺗ ﻖﻠﺧ"
+    # text = text.decode('utf-8')
+    draw.text((10, 765), text, (256, 256, 0+256), font=font)
+
+    # font = ImageFont.truetype(fontFile, 25, encoding='unic')
+    # text = "Drawed mathematical image by Seyyed Ali Mohammadieyeh"
+    # draw.text((85, 720), text, (256, 256, 0), font=font)
