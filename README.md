@@ -2,6 +2,14 @@
 
 This Repository generate stunning images show the beauty hidden in pi using Python.
 
+## Mathematics and Art
+
+### Screenshots of Creative arts
+
+| Black             |  White |
+| -------------- | -------------- |
+| ![](out-1-black.png)  |  ![](out-1-white.png) |
+
 ### Credits
 
 Professor **Seyyed Ali Reza Ashrafi** was the one who encouraged me to generate more of these works.
