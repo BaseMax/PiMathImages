@@ -2,6 +2,10 @@
 
 This Repository generate stunning images show the beauty hidden in pi using Python.
 
+### Credits
+
+Professor **Seyyed Ali Reza Ashrafi** was the one who encouraged me to generate more of these works.
+
 ---------
 
 # Max Base
