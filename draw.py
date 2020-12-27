@@ -1317,15 +1317,15 @@ pi = """3.1415926535897932384626433832795028841971693993751058209749445923078164
 pi = pi[2:]
 pi = pi.replace('\n', '')
 
-for i in range(0, 40):
-    c = random.randint(0, len(colors)-1)
-    # draw.ellipse((0+i*13, 0+i*13, 13+i*13, 13+i*13), fill = colors[c], outline = colors[c])
-    x1 = i*15
-    y1 = 27
-    draw.ellipse((x1, y1, x1 + 13, y1 + 13), fill = colors[c], outline = colors[c])
+# for i in range(0, 40):
+#     c = random.randint(0, len(colors)-1)
+#     # draw.ellipse((0+i*13, 0+i*13, 13+i*13, 13+i*13), fill = colors[c], outline = colors[c])
+#     x1 = i*15
+#     y1 = 27
+#     draw.ellipse((x1, y1, x1 + 13, y1 + 13), fill = colors[c], outline = colors[c])
 
-for i in range(0, 50):
-    c = random.randint(0, len(colors)-1)
-    x1 = i*15
-    y1 = 250 + i*7
-    draw.ellipse((x1, y1, x1 + 13, y1 + 13), fill = colors[c], outline = colors[c])
+# for i in range(0, 50):
+#     c = random.randint(0, len(colors)-1)
+#     x1 = i*15
+#     y1 = 250 + i*7
+#     draw.ellipse((x1, y1, x1 + 13, y1 + 13), fill = colors[c], outline = colors[c])
