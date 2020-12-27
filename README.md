@@ -9,6 +9,13 @@ This Repository generate stunning images show the beauty hidden in pi using Pyth
 | Black             |  White |
 | -------------- | -------------- |
 | ![](out-1-black.png)  |  ![](out-1-white.png) |
+| ![](out-2-black.png)  |  ![](out-2-white.png) |
+| ![](out-3-black.png)  |  ![](out-3-white.png) |
+| ![](out-4-black.png)  |  ![](out-4-white.png) |
+| ![](out-5-black.png)  |  ![](out-5-white.png) |
+| ![](out-6-black.png)  |  ![](out-6-white.png) |
+| ![](out-7-black.png)  |  ![](out-7-white.png) |
+| ![](out-8-black.png)  |  ![](out-8-white.png) |
 
 ### Credits
 
