@@ -1416,5 +1416,8 @@ drawing("3-white", (256, 256, 256))
 drawing("4-black", (0, 0, 0), lambda i, x1, x2: i/x2)
 drawing("4-white", (256, 256, 256), lambda i, x1, x2: i/x2)
 
+drawing("5-black", (0, 0, 0), lambda i, x1, x2: i/(x1+1))
+drawing("5-white", (256, 256, 256), lambda i, x1, x2: i/(x1+1))
+
 # print(pi)
 # print(len(pi))
