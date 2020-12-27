@@ -1,4 +1,4 @@
-# π: Pi Math piImages
+# π: Pi Math Art Images
 
 This Repository generate stunning images show the beauty hidden in pi using Python.
 
