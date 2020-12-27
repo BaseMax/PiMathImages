@@ -1425,5 +1425,7 @@ drawing("6-white", (256, 256, 256), lambda i, x1, x2: i+((10*x1)+1))
 drawing("7-black", (0, 0, 0), lambda i, x1, x2: i/((x1%4)+1))
 drawing("7-white", (256, 256, 256), lambda i, x1, x2: i/((x1%4)+1))
 
+# drawing("7-black", (0, 0, 0), lambda i, x1, x2: i/2 if i < 100 else i/3)
+
 # print(pi)
 # print(len(pi))
